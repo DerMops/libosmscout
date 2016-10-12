@@ -23,12 +23,3 @@ install:
   
 build_script:
   - '%APPVEYOR_BUILD_FOLDER%\ci\appveyor\build.bat'
-
-deploy:
-- provider: FTP
-  host: ftp.cadwork.ch
-  protocol: ftps
-  username: ftproot
-  password:
-    secure: ZrkE2pFABFhoIHDq50LCiA==
-  folder: /public/Baldaccini
