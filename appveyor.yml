@@ -25,5 +25,5 @@ build_script:
   - '%APPVEYOR_BUILD_FOLDER%\ci\appveyor\build.bat'
 
 artifacts:
-- path: C:\projects\libosmscout\x64\Debug\*.*
+- path: ./x64/Debug/*.*
   name: Ftp
