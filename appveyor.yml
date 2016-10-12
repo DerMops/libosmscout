@@ -10,7 +10,7 @@ environment:
   matrix:
   - COMPILER: msvc2015
     PLATFORM: x64
-    CONFIGURATION: Release
+    CONFIGURATION: Debug
     MSYS2_ARCH: x86_64
     MSYS2_DIR: msys64
     MSYSTEM: MINGW64
